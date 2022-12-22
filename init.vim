@@ -18,6 +18,8 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'ctrlpvim/ctrlp.vim'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+    Plug 'frazrepo/vim-rainbow'
+    Plug 'lukas-reineke/indent-blankline.nvim'
 
 call plug#end()
 " }}} vim-plug
